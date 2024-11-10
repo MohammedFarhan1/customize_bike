@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Customizer Page Styles */
+.container select, .container input {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Image Display */
+.bike-image {
+    margin: 20px 0;
+}
+
+.bike-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Button and Price */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#totalPrice {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.summary h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.summary p {
+    font-size: 16px;
+    margin: 5px 0;
+}
